@@ -1,0 +1,32 @@
+.contact-container {
+    border: 1px solid black;
+    width: 60em;
+    margin: auto;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #C4CED4;
+}
+
+.contact-title {
+    border: 1px solid blue;
+    /* transform: rotate(-90deg);
+    font-size: 10em;
+    /* font-size: 2em; */
+    /* color: white;
+    height: 100%;
+    width: fit-content;
+    border: 1px solid blue;
+    -webkit-text-stroke: 2px black; */
+}
+
+form {
+    border: 1px solid red;
+    width: 25em;
+}
+
+.btn {
+    background-color: #005C5C !important;
+}
