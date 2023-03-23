@@ -1,3 +1,10 @@
 * {
-    background-color: #0C2C56;
+    /* background-color: #0C2C56; */
 }
+body {
+    /* come back and find correct path */
+    /* background-image: url('https://images.unsplash.com/photo-1533255431233-4eb4410ca514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'); */
+    background-image: url('https://images.unsplash.com/photo-1530291800520-e8346846ad6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 

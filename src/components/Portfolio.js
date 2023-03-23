@@ -1,20 +1,27 @@
 import React from "react";
+import "../styles/portfolio.css";
 
 function Portfolio() {
+  const projects = [
+    {
+      title: "project 1",
+      description: "project 1 description",
+      image: "../password-generator.png",
+      url: "",
+    },
+  ];
+
   return (
-    <>
-      <h2>portfolio</h2>
+    <div className="portfolio-container">
+      {/* <h2>portfolio</h2> */}
       <div>
-        <ul>
-            <li>project 1</li>
-            <li>project 2</li>
-            <li>project 3</li>
-            <li>project 4</li>
-            <li>project 5</li>
-            <li>project 6</li>
+        <ul className="projects-flex">
+          {projects.map((project, index) => (
+            <li className="project" key={index}><img src="/Users/edgarmartinez/code/Homeworks/React-Portfolio/assets/password-gen.png"></img></li>
+          ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

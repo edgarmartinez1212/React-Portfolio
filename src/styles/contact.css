@@ -1,32 +1,43 @@
 .contact-container {
-    border: 1px solid black;
-    width: 60em;
+    /* display: block; */
+    /* border: 1px solid black; */
+    width: 30em;
     margin: auto;
-    margin-top: 1em;
+    /* margin-top: 2em; */
+    margin-top: 4em;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
     color: #C4CED4;
 }
 
 .contact-title {
-    border: 1px solid blue;
-    /* transform: rotate(-90deg);
-    font-size: 10em;
-    /* font-size: 2em; */
-    /* color: white;
+    /* border: 1px solid blue;
+    transform: rotate(-90deg);
+    
+    font-size: 2em; */
+    font-size: 3em;
+    margin: auto;
+    color: white;
     height: 100%;
     width: fit-content;
-    border: 1px solid blue;
+    /* border: 1px solid blue;
     -webkit-text-stroke: 2px black; */
 }
 
 form {
-    border: 1px solid red;
-    width: 25em;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.form-item {
+margin-top: 1em;
 }
 
 .btn {
-    background-color: #005C5C !important;
+    /* background-color: #005C5C !important; */
+}
+.btn-div {
+    width: fit-content;
+    margin: auto;
 }
