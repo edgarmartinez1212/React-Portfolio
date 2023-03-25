@@ -4,14 +4,6 @@
     margin: auto;
     margin-top: 4em;
     color: white;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: #1a1a1a;
-    color: white; */
 }
 .portfolio-content h2 {
     text-align: center;
@@ -22,7 +14,7 @@
 
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
+    justify-content: center;
 }
 .projects-flex li {
     border: 1px solid white;
@@ -30,8 +22,19 @@
     width: 350px;
     margin: 0.5em;
 }
-#imgItem {
-    background-image: url("/Users/edgarmartinez/code/Homeworks/React-Portfolio/assets/password-gen.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.project-image {
+    height: 100%;
+    width: 100%;
 }
+.project-image:hover {
+    opacity: 0.5;
+    color: white;
+}
+.project-1{}
+.project-2{}
+.project-3{}
+.project-4{}
+.project-5{}
+.project-6{}
+.project-7{}
+.project-8{}

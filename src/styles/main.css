@@ -1,0 +1,13 @@
+*{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+
+    /* -webkit-text-stroke: 0.3px black; */
+
+    color: white;
+}
+body {
+    background: url("../assets/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
