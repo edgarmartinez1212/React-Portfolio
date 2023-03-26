@@ -16,6 +16,7 @@ function Header() {
     text: {
       color: "white",
       // color: "black",
+      // display: "`block",
       "border-bottom": "1px solid white",
       // "border-radius": "10px",
     },

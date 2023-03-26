@@ -6,8 +6,8 @@ function About() {
   const styles = {
     container: {
       margin: "auto",
-      "margin-top": "4em",
-      width: "50em",
+      "margin-top": "2.5em",
+      width: "45em",
       height: "20em",
       display: "flex",
       flexDirection: "row",
@@ -15,40 +15,46 @@ function About() {
       justifyContent: "space-evenly",
     },
     imageDiv: {
+      display: "block",
       width: "200px",
       height: "300px",
+      "margin-top": "1.5em",
     },
     image: {
       height: "100%",
       width: "100%",
-      "border-radius": "10px",
     },
-    aboutMe: {
+    about: {
+      display: "block",
       height: "fit-content",
-      width: "50%",
+      width: "25em",
       "background-color": "#444",
-      "border-radius": "10px",
-      // border: "1px solid white",
       "text-align": "center",
       padding: "1em",
     },
     text: {},
   };
 
-  return (
-    <div style={styles.container}>
+  const createAbout = () => {
+    return (
+      <div style={styles.container}>
       <div style={styles.imageDiv}>
         <img src={imageUrl} alt="edgar_avatar" style={styles.image}></img>
       </div>
-      <div style={styles.aboutMe}>
-        <p className="" style={styles.text}>
+      <div style={styles.about}>
+        <p className="">
           Currently an IT User Support Specialist for Northwestern University Libraries with an interest in movies, music, and social events.
         </p>
-        <p className="" style={styles.text}>
+        <p className="">
           After having been introduced to Web Development through a colleague, I decided to register for Northwestern University's Coding Bootcamp. Exepericing the world of programming and logic, I now have hopes of becoming a Web Developer.
         </p>
       </div>
     </div>
+    );
+  };
+
+  return (
+    createAbout()
   );
 }
 

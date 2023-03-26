@@ -49,8 +49,6 @@ function Portfolio() {
 
   const styles = {
     projectCard: {
-      // border: "1px solid black",
-
       margin: "auto",
       "margin-top": "2em",
       display: "flex",
@@ -62,46 +60,32 @@ function Portfolio() {
     imageDiv: {
       width: "60%",
       height: "100%",
-      // border: "1px solid green",
-      "border-radius": "10px",
     },
     projectCardInfoDiv: {
-      // border: "1px solid pink",
       width: "40%",
     },
     name: {
-      // border: "1px solid blue",
-
       padding: "0.5em",
       "text-align": "center",
-      // "border-bottom": "1px solid white",
     },
     description: {
-      // height: "fit-content",
-      // width: "50%",
       "background-color": "#444",
-      "border-radius": "10px",
-      // border: "1px solid white",
       "text-align": "center",
       padding: "1em",
     },
     linkDiv: {
-      // border: "1px solid red",
       width: "fit-content",
       margin: "auto",
       display: "flex",
       "flex-direction": "row",
     },
     link: {
-      // border: "1px solid white",
-      // width: "fit-content",
       "text-decoration": "none",
       color: "black",
       margin: "0.5em",
       "border-radius": "10px",
     },
     test: {
-      "border-radius": "10px",
     },
   };
 
@@ -121,8 +105,8 @@ function Portfolio() {
     );
   };
 
-  const createProjectCard = (projectId) => {
-    const project = projects[projectId];
+  const createProjectCard = (id) => {
+    const project = projects[id];
 
     return (
       <div className="projectCard" style={styles.projectCard}>
