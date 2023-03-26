@@ -25,7 +25,7 @@ function Footer() {
       height: "50px",
       width: "50px",
       opacity: "0.7",
-    }
+    },
   };
 
   const footerLinks = [
