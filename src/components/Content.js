@@ -3,7 +3,6 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
-import "../styles/content.css";
 
 function Content() {
   const navBar = ["about", "portfolio", "contact", "resume"];
@@ -54,29 +53,10 @@ function Content() {
         ))}
       </ul>
     );
-
-    // return (
-    //   <ul className="list-group list-group-horizontal justify-content-center" style={styles.navBar}>
-    //     {navBar.map((navOption, index) => (
-    //       <li
-    //         style={styles.navItem}
-    //         className={selectedIndex === index ? "list-group-item active nav-item" : "list-group-item nav-item"}
-    //         key={index}
-    //         onClick={() => {
-    //           setSelectedIndex(index);
-    //           setSelectedContent(content[index]);
-    //         }}
-    //       >
-    //         {navOption}
-    //       </li>
-    //     ))}
-    //   </ul>
-    // );
   };
 
   return (
     <>
-      {/* <div className="navBar">{createNavBar()}</div> */}
       {createNavBar()}
       <div style={styles.content}>{selectedContent}</div>
     </>

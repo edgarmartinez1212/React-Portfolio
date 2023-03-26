@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/portfolio.css";
 
 function About() {
   const imageUrl = require(`../assets/me.jpg`);
@@ -32,7 +31,6 @@ function About() {
       "text-align": "center",
       padding: "1em",
     },
-    text: {},
   };
 
   const createAbout = () => {

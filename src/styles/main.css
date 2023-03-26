@@ -2,15 +2,22 @@
     font-family: 'Amatic SC', cursive;
     font-family: 'Caveat', cursive;
     font-family: 'Roboto Slab', serif;
-
-    /* -webkit-text-stroke: 0.3px lime; */
-
     color: white;
-    /* color: limegreen; */
-    /* border-bottom: "1px solid white", */
 }
 body {
-    /* background: url("../assets/background.jpg") no-repeat center fixed;
-    background-size: cover; */
     background-color: #222222!important;
+}
+.project-image:hover {
+    opacity: 0.5;
+    color: white;
+}
+.projectLink:hover {
+    border: 1px solid white;
+}
+.navItem:hover {
+    border: 1px solid white;
+}
+.selectedItem {
+    font-size: larger;
+    border-bottom: 1px solid white;
 }

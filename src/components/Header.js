@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/header.css";
 
 function Header() {
   const name = "edgar martinez";
@@ -7,18 +6,10 @@ function Header() {
     header: {
       width: "fit-content",
       margin: "10px",
-      // border: "1px solid black",
-      // background: "rgba(204, 204, 204, 0.1)",
-
-      // border: "0",
-      // opacity: "0.1",
     },
     text: {
       color: "white",
-      // color: "black",
-      // display: "`block",
       "border-bottom": "1px solid white",
-      // "border-radius": "10px",
     },
   };
 

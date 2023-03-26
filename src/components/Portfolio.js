@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/portfolio.css";
 
 function Portfolio() {
   const projects = [
@@ -77,21 +76,15 @@ function Portfolio() {
       "justify-content": "space-between",
       "flex-wrap": "wrap",
       width: "55em",
-
-      // border: "1px solid white",
     },
     imageDiv: {
       width: "60%",
       height: "100%",
-      // border: "1px solid green",
     },
     projectCardInfoDiv: {
       width: "20em",
-
-      // border: "1px solid pink",
     },
     name: {
-      // padding: "0.5em",
       "padding-bottom": "0.2em",
       margin: "auto",
       "margin-bottom": "1em",
@@ -176,21 +169,6 @@ function Portfolio() {
 
   const [portfolioContainer, setPortfolioContainer] = React.useState(createProjectContainer());
   return portfolioContainer;
-
-  // return createProjectCard(6);
-  // return (  <div>
-  //         <div>
-  //           <ul>
-  //             {projects.map((project, index) => (
-  //               <li key={index}>
-  //                 {createProjectCard(index)}
-  //               </li>
-  //             ))}
-  //           </ul>
-  //         </div>
-  //       </div>)
-
-  // return createProjectCard(0);
 }
 
 export default Portfolio;

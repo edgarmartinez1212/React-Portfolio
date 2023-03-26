@@ -1,7 +1,0 @@
-.navItem:hover {
-    border: 1px solid white;
-}
-.selectedItem {
-    font-size: larger;
-    border-bottom: 1px solid white;
-}
