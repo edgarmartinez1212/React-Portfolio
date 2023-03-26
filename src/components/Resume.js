@@ -5,7 +5,7 @@ function Resume() {
   const styles = {
     resumeDiv: {
       margin: "auto",
-      "margin-top": "2em",
+      marginTop: "2em",
       width: "50em",
       height: "30em",
     },

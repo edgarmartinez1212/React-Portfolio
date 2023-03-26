@@ -19,10 +19,10 @@ function Contact() {
     contactContainer: {
       width: "30em",
       margin: "auto",
-      "margin-top": "2em",
+      marginTop: "2em",
     },
     formItem: {
-      "margin-top": "1em",
+      marginTop: "1em",
     },
     buttonDiv: {
       width: "fit-content",
@@ -31,8 +31,8 @@ function Contact() {
     button: {
       margin: "1em",
       width: "5em",
-      "background-color": "#444",
-      "text-align": "center",
+      backgroundColor: "#444",
+      textAlign: "center",
     },
   };
 

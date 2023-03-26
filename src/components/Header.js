@@ -9,7 +9,7 @@ function Header() {
     },
     text: {
       color: "white",
-      "border-bottom": "1px solid white",
+      borderBottom: "1px solid white",
     },
   };
 

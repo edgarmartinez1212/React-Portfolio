@@ -5,7 +5,7 @@ function About() {
   const styles = {
     container: {
       margin: "auto",
-      "margin-top": "2.5em",
+      marginTop: "2.5em",
       width: "45em",
       height: "20em",
       display: "flex",
@@ -17,7 +17,7 @@ function About() {
       display: "block",
       width: "200px",
       height: "300px",
-      "margin-top": "1.5em",
+      marginTop: "1.5em",
     },
     image: {
       height: "100%",
@@ -27,8 +27,8 @@ function About() {
       display: "block",
       height: "fit-content",
       width: "25em",
-      "background-color": "#444",
-      "text-align": "center",
+      backgroundColor: "#444",
+      textAlign: "center",
       padding: "1em",
     },
   };

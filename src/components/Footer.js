@@ -1,32 +1,6 @@
 import React from "react";
 
 function Footer() {
-  const styles = {
-    footer: {
-      margin: "auto",
-      "margin-top": "1.5em",
-      width: "60em",
-    },
-    list: {
-      "list-style": "none",
-      "text-align": "center",
-      display: "flex",
-      "flex-direction": "row",
-    },
-    listItem: {
-      color: "gray",
-      margin: "auto",
-    },
-    link: {
-      "text-decoration": "none",
-      color: "dark-gray",
-    },
-    image: {
-      height: "50px",
-      width: "50px",
-      opacity: "0.7",
-    },
-  };
 
   const footerLinks = [
     {
@@ -46,11 +20,38 @@ function Footer() {
     },
   ];
 
+  const styles = {
+    footer: {
+      margin: "auto",
+      marginTop: "1.5em",
+      width: "60em",
+    },
+    list: {
+      listStyle: "none",
+      textAlign: "center",
+      display: "flex",
+      flexDirection: "row",
+    },
+    listItem: {
+      color: "gray",
+      margin: "auto",
+    },
+    link: {
+      textDecoration: "none",
+      color: "dark-gray",
+    },
+    image: {
+      height: "50px",
+      width: "50px",
+      opacity: "0.7",
+    },
+  };
+
   return (
     <div style={styles.footer}>
       <ul style={styles.list} className="footer-ul">
         {footerLinks.map((link, index) => (
-          <li style={styles.listItem}>
+          <li style={styles.listItem} key={index}>
             <a href={link.url} target="_blank" style={styles.link}>
               <img src={link.image} style={styles.image}></img>
             </a>
