@@ -1,9 +1,12 @@
+.background-white {
+    /* background-color: white; */
+}
 .portfolio-container {
     /* border: 0.5px solid lime; */
     width: 60em;
     margin: auto;
     margin-top: 4em;
-    color: white;
+    /* color: white; */
 }
 .portfolio-content h2 {
     text-align: center;
@@ -17,7 +20,7 @@
     justify-content: center;
 }
 .projects-flex li {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 200px;
     width: 350px;
     margin: 0.5em;
@@ -28,6 +31,10 @@
 }
 .project-image:hover {
     opacity: 0.5;
+    color: white;
+}
+link {
+    text-decoration: none;
     color: white;
 }
 .project-1{}

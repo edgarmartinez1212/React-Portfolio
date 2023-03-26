@@ -13,7 +13,6 @@ function About() {
       flexDirection: "row",
       flexwrap: "wrap",
       justifyContent: "space-evenly",
-      // border: "1px solid black",
     },
     imageDiv: {
       width: "200px",
@@ -22,10 +21,18 @@ function About() {
     image: {
       height: "100%",
       width: "100%",
+      "border-radius": "10px",
     },
-    text: {
+    aboutMe: {
+      height: "fit-content",
       width: "50%",
+      "background-color": "#444",
+      "border-radius": "10px",
+      // border: "1px solid white",
+      "text-align": "center",
+      padding: "1em",
     },
+    text: {},
   };
 
   return (
@@ -33,9 +40,13 @@ function About() {
       <div style={styles.imageDiv}>
         <img src={imageUrl} alt="edgar_avatar" style={styles.image}></img>
       </div>
-      <div style={styles.text}>
-        <p>Currently an IT User Support Specialist for Northwestern University Libraries with an interest in movies, music, and social events.</p>
-        <p>After having been introduced to Web Development through a colleague, I decided to register for Northwestern University's Coding Bootcamp. Exepericing the world of programming and logic, I now have hopes of becoming a Web Developer.</p>
+      <div style={styles.aboutMe}>
+        <p className="" style={styles.text}>
+          Currently an IT User Support Specialist for Northwestern University Libraries with an interest in movies, music, and social events.
+        </p>
+        <p className="" style={styles.text}>
+          After having been introduced to Web Development through a colleague, I decided to register for Northwestern University's Coding Bootcamp. Exepericing the world of programming and logic, I now have hopes of becoming a Web Developer.
+        </p>
       </div>
     </div>
   );

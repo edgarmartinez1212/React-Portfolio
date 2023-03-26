@@ -5,6 +5,7 @@ function Footer() {
   const styles = {
     footer: {
       margin: "auto",
+      "margin-top": "1.5em",
       width: "60em",
     },
     list: {
