@@ -6,13 +6,10 @@ function Resume() {
     resumeDiv: {
       margin: "auto",
       "margin-top": "2em",
-      border: "1px solid white",
-      "border-radius": "10px",
       width: "50em",
       height: "30em",
     },
     resume: {
-      "border-radius": "10px",
       width: "100%",
       height: "100%",
     },

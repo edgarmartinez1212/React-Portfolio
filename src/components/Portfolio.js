@@ -16,7 +16,7 @@ function Portfolio() {
       url: "https://edgarmartinez1212.github.io/code-quiz/",
     },
     {
-      name: "word day scheduler",
+      name: "work day scheduler",
       description: "Web page that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code.",
       image: require(`../assets/workday-scheduler.png`),
       url: "https://edgarmartinez1212.github.io/work-day-scheduler/",
@@ -48,6 +48,27 @@ function Portfolio() {
   ];
 
   const styles = {
+    portfolioContainer: {
+      width: "60em",
+      margin: "auto",
+      "margin-top": "2em",
+    },
+    portfolioList: {
+      "list-style": "none",
+      margin: "auto",
+      display: "flex",
+      "flex-wrap": "wrap",
+      "justify-content": "center",
+    },
+    portfolioListItem: {
+      height: "200px",
+      width: "350px",
+      margin: "0.5em",
+    },
+    portfolioImage: {
+      height: "100%",
+      width: "100%",
+    },
     projectCard: {
       margin: "auto",
       "margin-top": "2em",
@@ -55,23 +76,35 @@ function Portfolio() {
       "flex-direction": "row",
       "justify-content": "space-between",
       "flex-wrap": "wrap",
-      width: "70%",
+      width: "55em",
+
+      // border: "1px solid white",
     },
     imageDiv: {
       width: "60%",
       height: "100%",
+      // border: "1px solid green",
     },
     projectCardInfoDiv: {
-      width: "40%",
+      width: "20em",
+
+      // border: "1px solid pink",
     },
     name: {
-      padding: "0.5em",
+      // padding: "0.5em",
+      "padding-bottom": "0.2em",
+      margin: "auto",
+      "margin-bottom": "1em",
+      width: "fit-content",
       "text-align": "center",
+      "border-bottom": "1px solid white",
     },
     description: {
       "background-color": "#444",
       "text-align": "center",
+      margin: "auto",
       padding: "1em",
+      width: "20em",
     },
     linkDiv: {
       width: "fit-content",
@@ -80,27 +113,26 @@ function Portfolio() {
       "flex-direction": "row",
     },
     link: {
+      "text-align": "center",
       "text-decoration": "none",
-      color: "black",
+      color: "white",
       margin: "0.5em",
-      "border-radius": "10px",
-    },
-    test: {
+      "margin-left": "1em",
+      "margin-right": "1em",
+      width: "6em",
     },
   };
 
   const createProjectContainer = () => {
     return (
-      <div className="portfolio-container">
-        <div>
-          <ul className="projects-flex">
-            {projects.map((project, index) => (
-              <li key={index}>
-                <img style={styles.test} src={project.image} alt={project.name} className="project-image" onClick={handleClick} id={index} />
-              </li>
-            ))}
-          </ul>
-        </div>
+      <div className="" style={styles.portfolioContainer}>
+        <ul className="" style={styles.portfolioList}>
+          {projects.map((project, index) => (
+            <li key={index} style={styles.portfolioListItem}>
+              <img style={styles.portfolioImage} src={project.image} alt={project.name} className="project-image" onClick={handleClick} id={index} />
+            </li>
+          ))}
+        </ul>
       </div>
     );
   };
@@ -109,22 +141,22 @@ function Portfolio() {
     const project = projects[id];
 
     return (
-      <div className="projectCard" style={styles.projectCard}>
-        <div className="projectCardImageDiv" style={styles.imageDiv}>
-          <img style={styles.test} src={project.image} alt={project.name} className="project-image" />
+      <div className="" style={styles.projectCard}>
+        <div className="" style={styles.imageDiv}>
+          <img style={styles.portfolioImage} src={project.image} alt={project.name} className="" />
         </div>
-        <div className="projectCardInfoDiv" style={styles.projectCardInfoDiv}>
-          <h3 style={styles.name} className="background-white">
+        <div className="" style={styles.projectCardInfoDiv}>
+          <h3 style={styles.name} className="">
             {project.name}
           </h3>
-          <p className="background-white" style={styles.description}>
+          <p className="" style={styles.description}>
             {project.description}
           </p>
-          <div className="projectCardLinksDiv list-group" style={styles.linkDiv}>
-            <a href={project.url} target="_blank" className="list-group-item" style={styles.link}>
+          <div className="" style={styles.linkDiv}>
+            <a href={project.url} target="_blank" className="projectLink" style={styles.link}>
               visit site
             </a>
-            <a href="" onClick={handleBack} className="list-group-item" style={styles.link}>
+            <a href="" onClick={handleBack} className="projectLink" style={styles.link}>
               all projects
             </a>
           </div>
@@ -145,6 +177,7 @@ function Portfolio() {
   const [portfolioContainer, setPortfolioContainer] = React.useState(createProjectContainer());
   return portfolioContainer;
 
+  // return createProjectCard(6);
   // return (  <div>
   //         <div>
   //           <ul>

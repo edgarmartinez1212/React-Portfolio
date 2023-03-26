@@ -30,7 +30,6 @@ function Content() {
       width: "100px",
     },
     content: {
-      // border: "1px solid white",
       width: "fit-content",
       margin: "auto",
     },

@@ -1,47 +1,38 @@
-.background-white {
-    /* background-color: white; */
-}
 .portfolio-container {
-    /* border: 0.5px solid lime; */
-    width: 60em;
+    /* width: 60em;
     margin: auto;
-    margin-top: 4em;
+    margin-top: 4em; */
     /* color: white; */
 }
 .portfolio-content h2 {
-    text-align: center;
+    /* text-align: center; */
 }
 .projects-flex {
-    list-style: none;
+    /* list-style: none;
     margin: auto;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
 }
 .projects-flex li {
     /* border: 1px solid white; */
-    height: 200px;
+    /* height: 200px;
     width: 350px;
-    margin: 0.5em;
+    margin: 0.5em; */
 }
 .project-image {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
 }
 .project-image:hover {
     opacity: 0.5;
     color: white;
 }
-link {
-    text-decoration: none;
-    color: white;
+.projectLink:hover {
+    border: 1px solid white;
 }
-.project-1{}
-.project-2{}
-.project-3{}
-.project-4{}
-.project-5{}
-.project-6{}
-.project-7{}
-.project-8{}
+link {
+    /* text-decoration: none;
+    color: white; */
+}

@@ -48,7 +48,6 @@ function Footer() {
   ];
 
   return (
-    // <div style={styles.footer} className="fixed-bottom">
     <div style={styles.footer}>
       <ul style={styles.list} className="footer-ul">
         {footerLinks.map((link, index) => (
