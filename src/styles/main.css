@@ -7,6 +7,21 @@
 body {
     background-color: #222222!important;
 }
+/* header */
+/* @media (min-width: 300px) and (max-width: 1000px) {
+    .headerDiv {
+        width: 45%!important;
+        margin-left: 10%!important;
+    }
+    .headerTitle {
+        font-size: 30px;
+    }
+    .navBar {
+
+    }
+} */
+
+
 .project-image:hover {
     opacity: 0.5;
     color: white;

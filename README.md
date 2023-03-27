@@ -81,3 +81,11 @@ The following images show the web application's appearance
 ![resume](./assets/resume.png)
 
 ## Links
+
+### GitHub Repository
+
+https://github.com/edgarmartinez1212/React-Portfolio
+
+### Deployed Application - GitHub Pages
+
+https://edgarmartinez1212.github.io/React-Portfolio/

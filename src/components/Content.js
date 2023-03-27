@@ -12,14 +12,20 @@ function Content() {
 
   const styles = {
     navBar: {
+      // border: "1px solid white",
+
       height: "fit-content",
-      width: "fit-content",
+      // width: "fit-content",
+      width: "31em",
       margin: "auto",
       display: "flex",
+      justyfyContent: "center",
       flexDirection: "row",
+      flexWrap: "wrap",
       listStyle: "none",
     },
     navItem: {
+      // border: "1px solid white",
       display: "block",
       textAlign: "center",
       marginLeft: "1em",
@@ -43,7 +49,7 @@ function Content() {
 
   const createNavBar = () => {
     return (
-      <ul className="" style={styles.navBar}>
+      <ul className="navBar" style={styles.navBar}>
         {navBar.map((navOption, index) => (
           <li key={index}>
             <a href="" id={index} onClick={handleClick} style={styles.navItem} className={selectedIndex === index ? "selectedItem navItem" : "navItem"}>
